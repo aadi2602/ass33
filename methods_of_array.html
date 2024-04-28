@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methods of Array</title>
+</head>
+<body>
+    <script>
+        const colors = ['red', 'pink', 'green', 'blue']
+        console.log(colors)
+        console.log(colors.push('white','black'))
+        colors.pop()
+
+        const colors1 = ['red', 'pink', 'green', 'blue']
+        console.log(colors1)
+        console.log(colors1.shift('white','black'))
+
+        const colors2 = ['red', 'pink', 'green', 'blue']
+        console.log(colors2.indexOf('pink'))
+        console.log(colors2.slice('pink'))
+        console.log(colors2.unshift('white','black'))
+        console.log(colors2.sort())
+        console.log(colors2.reverse())
+
+
+        const student = ['aditi','aditya','darshika','bharti','poorvi']
+        console.log(student.length)
+        console.log(student.slice(2, 2 , 'adi'))
+        console.log(student)
+        console.log(student.includes('aditi'))
+        console.log(Array.isArray(student))
+        console.log(student.reverse())
+        console.log(student.sort())
+        console.log(student.sort().reverse())
+        console.log(student.join())
+        
+    </script>
+</body>
+</html>
